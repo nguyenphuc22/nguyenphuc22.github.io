@@ -106,15 +106,7 @@ analytics:
 author:
   name             : "Phuc VR"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "Hello! I'm delighted to introduce myself to you. I am a programmer with two years of experience in Android programming, and I have a deep passion for this field.
-
-Programming is not just a profession for me; it is a true passion. I enjoy creating innovative and useful applications and I am always eager to take on new challenges in software development.
-
-One of the things I love most about programming is the ability to share my knowledge and experience with the community. I believe that sharing is an integral part of personal growth and the progress of the programming community as a whole. Therefore, I am excited to engage in the open-source community, where I can contribute to building and improving free software projects.
-
-On this website, I aim to share my knowledge and experience in the field of Android programming. I hope that through my articles and tutorials, I can help you gain a better understanding of Android app development and provide you with valuable resources to enhance your programming skills.
-
-Thank you for visiting my website. Let's share, learn, and progress together in the world of Android software development!"
+  bio              : "I'm a programmer with two years of experience in Android development, passionate about programming and sharing knowledge with the community, especially in open-source projects."
   location         : "Vietnam"
   email            :
   links:
