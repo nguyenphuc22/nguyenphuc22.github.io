@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Phuc VR"
-  avatar           : "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.png"
   bio              : "I'm a programmer with two years of experience in Android development, passionate about programming and sharing knowledge with the community, especially in open-source projects."
   location         : "Vietnam"
   email            :
