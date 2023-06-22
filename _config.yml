@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "PhucVR - Blog Programming"
+title                    : "PhucVR"
 title_separator          : "-"
-subtitle                 : Where I share my experience and research on programming
+subtitle                 : "Blog Programming"
 name                     : "Phuc VR"
 description              : "Sharing programming knowledge."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
