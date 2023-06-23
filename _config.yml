@@ -74,7 +74,8 @@ google:
   instant_search         : # false (default), true
 # SEO Related
 #google-site-verification=JutQz-8PKbYBi7BHlOR36BaJjnTMDjzzXSWLs5m5fsc
-google_site_verification : "JutQz-8PKbYBi7BHlOR36BaJjnTMDjzzXSWLs5m5fsc"
+#<meta name="google-site-verification" content="ZKmzLU9_UjdPvt7uP7VWjK2OrOl4BQWJN1xS0MMfQlg" />
+google_site_verification : "ZKmzLU9_UjdPvt7uP7VWjK2OrOl4BQWJN1xS0MMfQlg"
 bing_site_verification   :
 naver_site_verification  :
 yandex_site_verification :
