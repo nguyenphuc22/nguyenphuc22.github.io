@@ -118,6 +118,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/nguyenphuc22"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UC0znhbHQSm5kSd4RH9OW_iw"
 
 # Site Footer
 footer:
