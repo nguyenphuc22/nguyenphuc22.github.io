@@ -75,8 +75,9 @@ google:
 # SEO Related
 #google-site-verification=JutQz-8PKbYBi7BHlOR36BaJjnTMDjzzXSWLs5m5fsc
 #<meta name="google-site-verification" content="ZKmzLU9_UjdPvt7uP7VWjK2OrOl4BQWJN1xS0MMfQlg" />
+#<meta name="msvalidate.01" content="C17245671E743D8B131C807814191634" />
 google_site_verification : "ZKmzLU9_UjdPvt7uP7VWjK2OrOl4BQWJN1xS0MMfQlg"
-bing_site_verification   :
+bing_site_verification   : "C17245671E743D8B131C807814191634"
 naver_site_verification  :
 yandex_site_verification : "7f4596780e685470"
 baidu_site_verification  :
