@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /year-nick/
+permalink:
 hidden: true
 header:
   overlay_color: "#5e616c"
