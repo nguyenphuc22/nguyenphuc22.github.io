@@ -1,8 +1,11 @@
 ---
-layout: collection
-title: "Recipes"
-collection: recipes
-author_profile: true
+layout: archive
+title: "Page Archive"
+author_profile: false
 ---
 
-Sample document listing for the collection `_recipes`.
+{% for post in site.pages %}
+  {% unless post.hidden %}
+    {% include archive-single.html %}
+  {% endunless %}
+{% endfor %}
