@@ -2,18 +2,18 @@
 
 PhucVR:
   name        : "Phuc VR"
-  bio         : "What do you want, jewels? I am a very extravagant man."
-  avatar      : "/assets/images/bio-photo-2.jpg"
+  bio         : "*Nghiên Cứu*, *Chia sẻ*, *Phát triển*."
+  avatar      : "/assets/images/bio-photo.png"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:billyrick@rick.com"
-    - label: "Website"
+      url: "mailto:phucvr.opensource@gmail.com"
+    - label: "Github"
       icon: "fas fa-fw fa-link"
-      url: "https://thewhip.com"
+      url: "https://github.com/nguyenphuc22"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/extravagantman"
+      url: "https://twitter.com/phuc_vr"
 
 Cornelius Fiddlebone:
   name        : "Cornelius Fiddlebone"
