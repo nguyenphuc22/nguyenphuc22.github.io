@@ -36,22 +36,9 @@ Do đó, cần áp dụng Singleton pattern để chỉ cho phép tồn tại du
 
 Singleton Pattern giải quyết bằng cách chỉ tạo duy nhất một đối tượng. Singleton Pattern làm điều này bằng cách sử dụng các phương pháp sau:
 
-```mermaid
-graph TD
-
-    A[User Management System] --> B[UserManager]
-
-    B --> C[User 1]
-    B --> D[User 2]
-    B --> E[User 3]
-
-    classDef grey fill:#dddddd,stroke:#333333,stroke-width:2px;
-    classDef pink fill:#ffd6d6,stroke:#333,stroke-width:2px;
-
-    class A grey
-    class B grey
-    class C,D,E pink
-```
+<p align="center">
+<a href="https://github.com/nguyenphuc22/Design-Patterns/blob/main/docs/Book/2.1%20Singleton.md"><img alt="Singleton2" src="/assets/images/Singleton/Singleton2.png"/></a>
+</p>
 
 Giải thích:
 
@@ -66,22 +53,9 @@ Với cách triển khai này, chỉ có một đối tượng UserManager duy n
 
 Singleton Pattern có cấu trúc đơn giản, bao gồm các thành phần sau:
 
-```mermaid
-classDiagram
-    direction TB
-    class Singleton {
-        -static instance:Singleton
-        -Singleton()
-        +static getInstance() : Singleton
-    }
-
-    class Client {
-        +main()
-    }
-
-    Client --> Singleton
-    Singleton ..> Singleton : return instance
-```
+<p align="center">
+<a href="https://github.com/nguyenphuc22/Design-Patterns/blob/main/docs/Book/2.1%20Singleton.md"><img alt="Singleton3" src="/assets/images/Singleton/Singleton3.png"/></a>
+</p>
 
 - Lớp Singleton: Lớp này chứa các phương thức và biến cần thiết để triển khai Singleton Pattern.
 - Phương thức khởi tạo private: Phương thức này chỉ có thể được gọi từ bên trong lớp.
