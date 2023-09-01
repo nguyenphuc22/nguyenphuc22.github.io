@@ -18,13 +18,9 @@ Singleton là một Design Pattern thuộc nhóm Creational Design Pattern. Nó 
 Trong nhiều trường hợp, chúng ta cần đảm bảo rằng chỉ có một thể hiện duy nhất của một lớp được tạo ra. Ví dụ, trong một hệ thống quản lý người dùng, chúng ta cần đảm bảo rằng chỉ có một đối tượng UserManager được tạo ra, để quản lý tất cả người dùng trong hệ thống. Nếu không dùng Singleton rất có thể xảy ra trường hợp giống sơ đồ dưới đây.
 
 
-<pre class="mermaid">
-    graph LR
-    A --- B
-    B-->C[fa:fa-ban forbidden]
-    B-->D(fa:fa-spinner);
-</pre>
-
+<p align="center">
+<a href="https://github.com/nguyenphuc22/Design-Patterns/blob/main/docs/Book/2.1%20Singleton.md"><img alt="Singleton1" src="/assets/images/Singleton/Singleton1.png"/></a>
+</p>
 
 Giải thích:
 
