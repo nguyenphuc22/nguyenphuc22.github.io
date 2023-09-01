@@ -3,7 +3,9 @@ title:  "Hành trình chinh phục các Design Pattern: Singleton"
 search: true
 author_profile: true
 categories: 
-  - Design%Pattern
+  - Design Pattern
+tags:
+  - design pattern
 last_modified_at: 2023-09-19T08:06:00-05:00
 ---
 
