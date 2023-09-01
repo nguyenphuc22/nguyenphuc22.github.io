@@ -1,5 +1,5 @@
 ---
-title:  "Design Pattern: Singleton"
+title:  "Hành trình chinh phục các Design Pattern: Singleton"
 search: true
 author_profile: true
 categories: 
