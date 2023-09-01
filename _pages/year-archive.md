@@ -1,6 +1,6 @@
 ---
 title: "Bài viết theo năm"
 permalink: /year-archive/
-layout: posts
+layout: home
 author_profile: true
 ---
