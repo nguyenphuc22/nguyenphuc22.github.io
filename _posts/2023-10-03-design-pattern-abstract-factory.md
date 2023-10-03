@@ -3,10 +3,10 @@ title:  "Design Pattern Tiếng Việt: Abstract Factory"
 search: true
 author_profile: true
 categories:
-- Design Pattern
+  - Design Pattern
   tags:
-- design pattern
-  last_modified_at: 2023-09-19T08:06:00-05:00
+  - design pattern
+last_modified_at: 2023-09-19T08:06:00-05:00
 ---
 
 # Abstract Factory
