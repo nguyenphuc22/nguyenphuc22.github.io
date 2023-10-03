@@ -6,7 +6,7 @@ categories:
   - Design Pattern
 tags:
   - design pattern
-last_modified_at: 2023-09-19T08:06:00-05:00
+last_modified_at: 2023-10-03T08:06:00-05:00
 ---
 
 # Abstract Factory
