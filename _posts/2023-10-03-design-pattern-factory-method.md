@@ -3,10 +3,10 @@ title:  "Design Pattern Tiếng Việt: Factory Method"
 search: true
 author_profile: true
 categories:
-- Design Pattern
-  tags:
-- design pattern
-  last_modified_at: 2023-09-19T08:06:00-05:00
+    - Design Pattern
+tags:
+    - design pattern
+last_modified_at: 2023-09-19T08:06:00-05:00
 ---
 
 # Factory Method
