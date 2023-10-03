@@ -1,5 +1,5 @@
 ---
-title:  "Hành trình chinh phục các Design Pattern: Singleton"
+title:  "Design Pattern Tiếng Việt: Singleton"
 search: true
 author_profile: true
 categories: 
@@ -13,12 +13,17 @@ last_modified_at: 2023-09-19T08:06:00-05:00
 
 ## Giới thiệu
 
-Singleton là một Design Pattern thuộc nhóm Creational Design Pattern. Nó đảm bảo rằng chỉ duy nhất một đối tượng của lớp được tạo ra trong suốt quá trình chạy của một chương trình.
+Singleton là một Design Pattern thuộc nhóm Creational Pattern. Nó đảm bảo chỉ duy nhất một thể hiện của một lớp được tạo ra trong suốt chương trình.
 
 ### Đặt vấn đề
 
-Trong nhiều trường hợp, chúng ta cần đảm bảo rằng chỉ có một thể hiện duy nhất của một lớp được tạo ra. Ví dụ, trong một hệ thống quản lý người dùng, chúng ta cần đảm bảo rằng chỉ có một đối tượng UserManager được tạo ra, để quản lý tất cả người dùng trong hệ thống. Nếu không dùng Singleton rất có thể xảy ra trường hợp giống sơ đồ dưới đây.
+Trong nhiều trường hợp, cần đảm bảo chỉ có một thể hiện của một lớp. Ví dụ trong hệ thống quản lý người dùng, chỉ nên có duy nhất một đối tượng UserManager để quản lý người dùng.
 
+Nếu tạo nhiều đối tượng UserManager có thể dẫn đến:
+
+- Dữ liệu bị trùng lặp
+- Xung đột tài nguyên
+- Khó kiểm soát
 
 <p align="center">
 <a href="https://github.com/nguyenphuc22/Design-Patterns/blob/main/docs/Book/2.1%20Singleton.md"><img alt="Singleton1" src="/assets/images/Singleton/Singleton1.png"/></a>
@@ -36,7 +41,7 @@ Do đó, cần áp dụng Singleton pattern để chỉ cho phép tồn tại du
 
 ### Giải quyết
 
-Singleton Pattern giải quyết bằng cách chỉ tạo duy nhất một đối tượng. Singleton Pattern làm điều này bằng cách sử dụng các phương pháp sau:
+Singleton giải quyết bằng cách đảm bảo chỉ tạo duy nhất một thể hiện trong toàn bộ chương trình.
 
 <p align="center">
 <a href="https://github.com/nguyenphuc22/Design-Patterns/blob/main/docs/Book/2.1%20Singleton.md"><img alt="Singleton2" src="/assets/images/Singleton/Singleton2.png"/></a>
@@ -50,6 +55,7 @@ Giải thích:
 - Tránh được các vấn đề như dữ liệu trùng lặp, xung đột tài nguyên, khó kiểm soát
 
 Với cách triển khai này, chỉ có một đối tượng UserManager duy nhất được tạo ra, và đối tượng này có thể được truy cập từ bất kỳ nơi nào trong chương trình.
+
 
 ### Cấu tạo
 
@@ -110,7 +116,6 @@ Cách triển khai này tương tự như cách triển khai đầu tiên, nhưn
 
 - Sử dụng biến static final private sẽ ngăn chặn việc thay đổi giá trị của biến instance.
 - Cấu trúc code sẽ gọn gàng hơn.
-
 
 ## Ví dụ minh họa
 
