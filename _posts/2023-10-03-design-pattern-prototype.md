@@ -38,7 +38,7 @@ Chúng ta cần một cách để tạo ra các đối tượng tương tự m�
 Prototype Pattern giải quyết bài toán bằng cách:
 
 <p align="center">
-<a href="https://github.com/nguyenphuc22/Design-Patterns/blob/main/docs/Book/2.5%20Prototype.md"><img alt="Prototype1" src="/assets/images/Builder/image1.png"/></a>
+<a href="https://github.com/nguyenphuc22/Design-Patterns/blob/main/docs/Book/2.5%20Prototype.md"><img alt="Prototype1" src="/assets/images/Prototype/image1.png"/></a>
 </p>
 
 
@@ -57,7 +57,7 @@ Như vậy, Prototype Pattern cho phép tạo ra các đối tượng nhân vậ
 Để hiểu rõ cách tổ chức và hoạt động của Prototype Pattern, chúng ta cùng phân tích kỹ hơn cấu trúc của Pattern này.
 
 <p align="center">
-<a href="https://github.com/nguyenphuc22/Design-Patterns/blob/main/docs/Book/2.5%20Prototype.md"><img alt="Prototype2" src="/assets/images/Builder/image2.png"/></a>
+<a href="https://github.com/nguyenphuc22/Design-Patterns/blob/main/docs/Book/2.5%20Prototype.md"><img alt="Prototype2" src="/assets/images/Prototype/image2.png"/></a>
 </p>
 
 Các thành phần chính trong Prototype Pattern bao gồm:
