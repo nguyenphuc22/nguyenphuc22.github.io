@@ -37,30 +37,10 @@ Chúng ta cần một cách để tạo ra các đối tượng tương tự m�
 
 Prototype Pattern giải quyết bài toán bằng cách:
 
-```mermaid
-classDiagram
+<p align="center">
+<a href="https://github.com/nguyenphuc22/Design-Patterns/blob/main/docs/Book/2.5%20Prototype.md"><img alt="Prototype1" src="/assets/images/Builder/image1.png"/></a>
+</p>
 
-Prototype <|-- Character
-Client --> Prototype
-
-class Prototype {
-    <<interface>>
-  +clone()
-}
-
-class Character {
-  -name
-  -outfit
-  -weapon
-  +clone() 
-} 
-
-class Client {
-  +createNewCharacter()
-}
-
-Client --> Character
-```
 
 - Định nghĩa một interface Prototype chung cho các đối tượng nhân vật có thể clone.
 
@@ -76,39 +56,9 @@ Như vậy, Prototype Pattern cho phép tạo ra các đối tượng nhân vậ
 
 Để hiểu rõ cách tổ chức và hoạt động của Prototype Pattern, chúng ta cùng phân tích kỹ hơn cấu trúc của Pattern này.
 
-```mermaid
-classDiagram
-
-Prototype <|-- ConcretePrototype1
-Prototype <|-- ConcretePrototype2
-Client --> Prototype
-
-class Prototype {
-  <<interface>>
-  + clone()
-}
-
-class ConcretePrototype1 {
-  - field1
-  - field2 
-  + clone()
-}
-
-class ConcretePrototype2 {
-  - field3
-  - field4
-  + clone()  
-}
-
-class Client {
-  + operation()
-}
-
-Client --> ConcretePrototype1
-ConcretePrototype1 ..> ConcretePrototype1 : clone()
-Client --> ConcretePrototype2
-ConcretePrototype2 ..> ConcretePrototype2 : clone()
-```
+<p align="center">
+<a href="https://github.com/nguyenphuc22/Design-Patterns/blob/main/docs/Book/2.5%20Prototype.md"><img alt="Prototype2" src="/assets/images/Builder/image2.png"/></a>
+</p>
 
 Các thành phần chính trong Prototype Pattern bao gồm:
 
