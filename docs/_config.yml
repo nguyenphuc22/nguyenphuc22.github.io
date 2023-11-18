@@ -91,7 +91,7 @@ social:
 analytics:
   provider               : "custom" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : "G-54XMFBHY7E" # Replace this with your ID, or delete
+    tracking_id          : "G-X02CP7KPF1" # Replace this with your ID, or delete
     anonymize_ip         : true
 
 # Site Author
